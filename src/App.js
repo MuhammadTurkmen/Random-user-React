@@ -40,7 +40,7 @@ function App() {
       name:`${first} ${last}`, 
     }
 
-    setPerson(newPerson)
+    setPerson(newPerson) 
     setLoading(false) 
     setTitle('name')
     setValue(newPerson.name) 
