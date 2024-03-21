@@ -22,6 +22,7 @@ function App() {
     const {phone, email} = person
     const {large: image} = person.picture
     const {login: {password} } = person
+    const {first, last} = person.name
   }
   
   useEffect(() => {
