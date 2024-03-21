@@ -17,10 +17,13 @@ function App() {
   
   
   const handleValue = (e) => {
-    
+
   }
   
-  return <h2>random user starter</h2>
+  return <main>
+    <div className="block bcg-black"></div>
+    <div className="block"></div>
+  </main>
 }
 
 export default App
