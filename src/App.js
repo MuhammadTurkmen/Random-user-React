@@ -39,7 +39,7 @@ function App() {
       street: `${Number} ${name}`,
       name:`${first} ${last}`, 
     }
-
+    
     setPerson(newPerson)
     setLoading(false) 
     setTitle('name')
