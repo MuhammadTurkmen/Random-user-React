@@ -39,6 +39,8 @@ function App() {
       street: `${Number} ${street}`,
       name:`${first} ${last}`, 
     }
+
+    setPerson(newPerson)
   }
   
   useEffect(() => {
