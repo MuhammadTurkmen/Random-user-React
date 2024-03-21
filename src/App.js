@@ -24,7 +24,7 @@ function App() {
     <div className="block bcg-black"></div>
     <div className="block">
       <div className="container">
-        <img src={defaultImage} alt="" />
+        <img src={defaultImage} alt="random user" className='user-img' />
       </div>
     </div>
   </main>
