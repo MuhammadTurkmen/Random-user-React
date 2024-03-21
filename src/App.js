@@ -13,7 +13,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [person, setPerson] = useState(null)
   const [title, setTitle] = useState('name')
-  const [value, setValue] = useState('name')
+  const [value, setValue] = useState('random person')
   
   
   return <h2>random user starter</h2>
