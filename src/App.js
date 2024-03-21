@@ -41,7 +41,7 @@ function App() {
     }
 
     setPerson(newPerson)
-    setLoading(false)
+    setLoading(false) 
   }
   
   useEffect(() => {
