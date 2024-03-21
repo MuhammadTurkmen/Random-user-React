@@ -28,7 +28,9 @@ function App() {
         <p className="user-title">my {title} is</p>
         <p className='user-value'>{value}</p>
         <div className="values-list">
-          <button className='icon' data-label='name' onMouseOver={handleValue}></button>
+          <button className='icon' data-label='name' onMouseOver={handleValue}>
+            <FaUser />
+          </button>
         </div>
       </div>
     </div>
