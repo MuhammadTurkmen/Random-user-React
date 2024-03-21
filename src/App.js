@@ -22,7 +22,11 @@ function App() {
   
   return <main>
     <div className="block bcg-black"></div>
-    <div className="block"></div>
+    <div className="block">
+      <div className="container">
+        <img src={defaultImage} alt="" />
+      </div>
+    </div>
   </main>
 }
 
