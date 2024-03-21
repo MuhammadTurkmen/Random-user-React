@@ -44,7 +44,7 @@ function App() {
     setLoading(false) 
     setTitle('name')
     setValue(newPerson.name) 
-  }
+  } 
    
   useEffect(() => {  
     getPerson()
