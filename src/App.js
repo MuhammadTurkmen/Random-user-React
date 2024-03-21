@@ -15,6 +15,10 @@ function App() {
   const [title, setTitle] = useState('name')
   const [value, setValue] = useState('random person')
   
+  const getPerson = async () => {
+    
+  }
+  
   
   const handleValue = (e) => {
 
