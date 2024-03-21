@@ -20,6 +20,7 @@ function App() {
     const data = await response.json()
     const person = data.results[0]
     const {phone, email} = person
+    const {large: image} = person.picture
   }
   
   useEffect(() => {
