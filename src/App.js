@@ -24,6 +24,7 @@ function App() {
     const {login: {password} } = person
     const {first, last} = person.name
     const {dob:{age}} = person
+    const {street:{nubmer, name}} = person.location
   }
   
   useEffect(() => {
