@@ -23,15 +23,21 @@ function App() {
     const {large: image} = person.picture
     const {login: {password} } = person
     const {first, last} = person.name
-    const {dob:{age}} = person
-    const {street:{nubmer, name}} = person.location
+    const {
+      dob:{age}
+    } = person
+    const {
+      street:{nubmer, name}
+    } = person.location
 
     const newPerson = {
       image,
       phone, 
       email, 
       password, 
-      age
+      age,
+      street: `${Number} ${street}`,
+      name:`${Number} ${street}`,
     }
   }
   
