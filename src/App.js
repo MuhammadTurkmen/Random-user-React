@@ -18,6 +18,7 @@ function App() {
   const getPerson = async () => {
     const response = await fetch(url)
     const data = await response.json()
+    const person = data.results[0]
   }
   
   useEffect(() => {
