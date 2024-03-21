@@ -16,9 +16,12 @@ function App() {
   const [value, setValue] = useState('random person')
   
   const getPerson = async () => {
-    
+
   }
   
+  useEffect(() => {
+    
+  })
   
   const handleValue = (e) => {
 
