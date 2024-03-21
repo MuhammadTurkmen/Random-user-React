@@ -46,7 +46,7 @@ function App() {
     setValue(newPerson.name) 
   }
    
-  useEffect(() => { 
+  useEffect(() => {  
     getPerson()
   }, [])
   
