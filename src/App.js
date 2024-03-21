@@ -37,7 +37,7 @@ function App() {
       password, 
       age,
       street: `${Number} ${street}`,
-      name:`${Number} ${street}`, 
+      name:`${first} ${last}`, 
     }
   }
   
