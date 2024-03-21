@@ -20,8 +20,8 @@ function App() {
   }
   
   useEffect(() => {
-    
-  })
+    getPerson()
+  }, [])
   
   const handleValue = (e) => {
 
