@@ -33,7 +33,7 @@ function App() {
           <button className='icon' data-label='age' onMouseOver={handleValue}><FaCalendarTimes /></button>
           <button className='icon' data-label='street' onMouseOver={handleValue}><FaMap /></button>
           <button className='icon' data-label='phone' onMouseOver={handleValue}><FaPhone /></button>
-          <button className='icon' data-label='name' onMouseOver={handleValue}><FaUser /></button>
+          <button className='icon' data-label='password' onMouseOver={handleValue}><FaLock /></button>
         </div>
       </div>
     </div>
