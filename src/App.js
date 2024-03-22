@@ -69,7 +69,7 @@ function App() {
           <button className='icon' data-label='phone' onMouseOver={handleValue}><FaPhone /></button>
           <button className='icon' data-label='password' onMouseOver={handleValue}><FaLock /></button>
         </div>
-        <button className='btn' type='button' >
+        <button className='btn' type='button' onClick={getPerson}>
           {loading ? 'loading ...' : 'random user'}
         </button>
       </div>
