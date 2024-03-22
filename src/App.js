@@ -27,7 +27,7 @@ function App() {
       dob:{age}
     } = person
     const {
-      street:{nubmer, name}
+      street:{number, name}
     } = person.location
 
     const newPerson = {
@@ -36,7 +36,7 @@ function App() {
       email, 
       password, 
       age,
-      street: `${Number} ${name}`,
+      street: `${number} ${name}`,
       name:`${first} ${last}`, 
     }
 
@@ -51,7 +51,7 @@ function App() {
   }, [])
   
   const handleValue = (e) => {
-    if(e.target.classList.contains()) {
+    if(e.target.classList.contains('icon')) {
       const newValue = e.target.dataset.label
       setTitle(newValue)
       setValue(person[newValue])
