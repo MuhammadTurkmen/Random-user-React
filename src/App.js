@@ -51,7 +51,7 @@ function App() {
   }, [])
   
   const handleValue = (e) => {
-    if()
+    if(e.target.classList.contains)
   }
   
   return <main>
